@@ -1,0 +1,119 @@
+
+.card-pocetna {
+    position: relative;
+    // background-image: linear-gradient(to bottom right, red, yellow);
+
+    .card-body-pocetna {
+        min-height: 280px;
+
+    }
+    .popust {
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-weight: bold;
+        text-align: center;
+        background-color: $orange;
+        color: black;
+        border-radius: 30px;
+    }
+
+}
+body {
+    overflow-x: hidden !important;
+}
+#app {
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.bg-dark {
+    background-color: #3e4d5d !important;
+}
+
+
+.veliko-check {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px;
+    border-radius: 3px;
+  }
+
+  .admin-nav {
+      color: white;
+      min-height: 100vh;
+      background-color:#1e2a3cf0 !important;
+      padding-top: 50px;
+      position: relative;
+      margin-top: -100px;
+      padding-right: 0px;
+      padding-left: 0px;
+
+
+      .list-group {
+        margin: auto;
+      }
+
+      .list-group-item {
+          cursor: pointer;
+          padding-left: 50px;
+
+      }
+
+      .list-group-item:hover {
+        background-color: black !important;
+      }
+
+      a {
+          color: inherit !important;
+          text-decoration: none !important;
+      }
+  }
+
+  .admin-divajder {
+      position: absolute;
+      top: 70px;
+      width: 100%;
+  }
+
+  .admin-naslov {
+      padding-left: 16.666%;
+      margin-top: 10px;
+  }
+
+  .admin-logo {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    // outline: 1px dashed green;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+  }
+
+
+.table-light th,
+.table-light td,
+.table-light thead th,
+.table-light tbody + tbody {
+
+    vertical-align: baseline;
+}
+
+.card-unos {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.admin-logout{
+    padding: 20px;
+    padding-right: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
